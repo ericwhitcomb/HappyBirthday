@@ -7,10 +7,11 @@
     tools:context="com.example.android.happybirthday.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Happy Birthday, Mom!"
         android:textSize="36sp" />
 
@@ -20,10 +21,11 @@
         android:src="@drawable/androidparty" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="From, Eric"
         android:textSize="36sp" />
 
