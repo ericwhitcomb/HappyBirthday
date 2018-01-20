@@ -6,20 +6,22 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.happybirthday.MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidparty" />
+
     <TextView
         android:fontFamily="sans-serif-light"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="20sp"
         android:text="Happy Birthday, Mom!"
         android:textColor="@android:color/white"
         android:textSize="36sp" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/androidparty" />
 
     <TextView
         android:fontFamily="sans-serif-light"
@@ -27,6 +29,7 @@
         android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="20sp"
         android:text="From, Eric"
         android:textColor="@android:color/white"
         android:textSize="36sp" />
